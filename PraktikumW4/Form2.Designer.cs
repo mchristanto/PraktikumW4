@@ -71,14 +71,17 @@
             // 
             // tBoxTelp2
             // 
+            this.tBoxTelp2.Enabled = false;
             this.tBoxTelp2.Location = new System.Drawing.Point(90, 91);
             this.tBoxTelp2.Name = "tBoxTelp2";
             this.tBoxTelp2.Size = new System.Drawing.Size(139, 23);
             this.tBoxTelp2.TabIndex = 0;
             this.tBoxTelp2.TextChanged += new System.EventHandler(this.tBoxTelp2_TextChanged);
+            this.tBoxTelp2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tBoxTelp2_KeyPress);
             // 
             // tBoxAlamat2
             // 
+            this.tBoxAlamat2.Enabled = false;
             this.tBoxAlamat2.Location = new System.Drawing.Point(90, 55);
             this.tBoxAlamat2.Name = "tBoxAlamat2";
             this.tBoxAlamat2.Size = new System.Drawing.Size(401, 23);
@@ -87,6 +90,7 @@
             // 
             // tBoxNama2
             // 
+            this.tBoxNama2.Enabled = false;
             this.tBoxNama2.Location = new System.Drawing.Point(90, 20);
             this.tBoxNama2.Name = "tBoxNama2";
             this.tBoxNama2.Size = new System.Drawing.Size(230, 23);
